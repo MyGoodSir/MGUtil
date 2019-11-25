@@ -15,24 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Inst.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Timer.h">
+    <ClInclude Include="source\Profiling\Tracer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Tracer.h">
+    <ClInclude Include="source\Profiling\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Profiling\Inst.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Examples\IterableCustomType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\structs\GraphicsStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Debug\ConsoleLogger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Timer.cpp">
+    <ClCompile Include="source\Profiling\Timer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Tracer.cpp">
+    <ClCompile Include="source\Profiling\Tracer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="source\Debug\ConsoleLogger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
